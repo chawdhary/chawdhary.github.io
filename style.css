@@ -1,0 +1,31 @@
+body{
+  background-image: url(1.jpg);
+  background-size: cover;
+  height: 884px;
+  padding: 0px;
+  margin: 0px;
+  }
+#loginbox{
+  height: 400px;
+  width: 400px;
+  margin: 50% auto 50% auto;
+  background:rgba(0,0,0,0.3);
+  border-radius: 8px;
+  border: 1px DimGray  black;
+  }
+  #username{
+	margin: 50px 0px 0px 70px;
+	width: 250px;
+	font-size: 20px;
+	height: 20px;
+  }
+ 
+ #top{
+   font-size: 50px;
+   position: relative;
+ }
+.welcome{
+  
+  font-size: 40px;
+  
+  }
