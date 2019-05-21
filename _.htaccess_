@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteBase /project-login/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ form.php?url=$1 [QSA,L]
+
+AddType application/x-httpd-php .htm .html
